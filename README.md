@@ -112,15 +112,19 @@ Webhookエンドポイントが呼び出されると、`webhook.ts`の処理が�
 
 ```
 youtube-pubsubhubbub-example/
-├── package.json        # 依存パッケージ定義
-├── tsconfig.json       # TypeScript設定
-├── .env.example        # 環境変数サンプル
-├── src/
-│   ├── subscribe.ts    # PubSubHubへの登録関数
-│   ├── webhook.ts      # Webhook処理ハンドラー
-│   └── example.ts      # 使用例
+├── package.json
+├── tsconfig.json
+├── .env.example
+├── src
+│   ├── app
+│   │   └── api
+│   │       └── webhook
+│   │           └── pubsub
+│   │               └── route.ts
+│   ├── example.ts
+│   └── subscribe.ts
 ```
-
+app/api/webhook/pubsub
 ## ライセンス
 
 このプロジェクトは [MIT license](LICENSE) の下で公開されています。
@@ -243,13 +247,17 @@ When the webhook endpoint is called, the processing in `webhook.ts` is executed:
 
 ```
 youtube-pubsubhubbub-example/
-├── package.json        # Package dependencies
-├── tsconfig.json       # TypeScript configuration
-├── .env.example        # Environment variables example
-├── src/
-│   ├── subscribe.ts    # PubSubHub subscription function
-│   ├── webhook.ts      # Webhook handler
-│   └── example.ts      # Usage example
+├── package.json
+├── tsconfig.json
+├── .env.example
+├── src
+│   ├── app
+│   │   └── api
+│   │       └── webhook
+│   │           └── pubsub
+│   │               └── route.ts
+│   ├── example.ts
+│   └── subscribe.ts
 ```
 
 ## License
