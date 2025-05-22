@@ -1,0 +1,17 @@
+# macOS 生成の隠しファイル
+.DS_Store
+
+# 環境変数ファイル
+.env
+.env.local
+.env.*.local
+
+# Node.js モジュール
+/node_modules
+
+# ビルド出力
+/dist
+/build
+
+# VSCode設定
+.vscode/

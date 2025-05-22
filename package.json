@@ -1,0 +1,30 @@
+{
+  "name": "youtube-pubsubhubbub-example",
+  "version": "1.0.0",
+  "description": "YouTube PubSubHubBub subscription example",
+  "main": "src/example.js",
+  "scripts": {
+    "start": "ts-node src/example.ts",
+    "build": "tsc",
+    "webhook": "ts-node src/webhook.ts"
+  },
+  "keywords": [
+    "youtube",
+    "pubsubhubbub",
+    "webhook",
+    "notification"
+  ],
+  "author": "tatsumin",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.3.2",
+    "node-fetch": "^3.3.0",
+    "xml2js": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "@types/xml2js": "^0.4.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
